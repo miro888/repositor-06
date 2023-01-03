@@ -1,0 +1,229 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #485563;
+    position: relative;
+    animation: anime 25s infinite 0s linear;
+
+
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 25%;
+}
+
+.cat {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 380px;
+    animation: cat 25s infinite linear;
+}
+
+@keyframes cat {
+
+
+    0% {
+        transform: rotate(90deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+
+
+
+}
+
+
+.bruse {
+    width: 400px;
+    margin-left: 400px;
+    position: absolute;
+    top: 100px;
+}
+
+.img {
+    width: 600px;
+    position: fixed;
+    top: -200px;
+    left: 400px;
+
+}
+
+.moon {
+    width: 600px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    animation: moon 25s infinite;
+}
+
+@keyframes moon {
+    form {
+        width: 600px
+    }
+
+    to {
+        width: 50px
+    }
+}
+
+.ship {
+    width: 100px;
+    position: absolute;
+    left: -550px;
+    top: 850px;
+    animation: ship 16s infinite ease 6s;
+}
+
+@keyframes ship {
+    form {
+        width: 50px
+    }
+
+    to {
+        width: 750px
+    }
+
+
+    0% {
+        top: 45px;
+        /* left: 0px; */
+    }
+
+    25% {
+        top: 5px;
+        /* left: 234px; */
+
+    }
+
+    50% {
+        top: 405px;
+        /* left: 468px; */
+
+    }
+
+    75% {
+        top: 5px;
+        /* left: 702px; */
+
+    }
+
+    100% {
+        top: 205px;
+        /* left: 952px; */
+    }
+
+
+}
+
+.hole {
+    width: 50px;
+    position: fixed;
+    left: 2%;
+    top: 30%;
+    animation: hole 23s infinite linear 0s;
+
+
+}
+
+@keyframes hole {
+    form {
+        width: 50px;
+
+    }
+
+    to {
+        width: 1170px;
+
+    }
+
+
+    from {
+        transform: rotate(0deg);
+        opacity: 20%;
+    }
+
+    to {
+        transform: rotate(359deg);
+        opacity: 100%;
+    }
+
+}
+
+
+
+
+@keyframes anime {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 5px;
+        left: 234px;
+        background-color: #252525;
+    }
+
+    50% {
+        top: 0px;
+        left: 468px;
+        background: #151819;
+    }
+
+    75% {
+        top: 5px;
+        left: 702px;
+        background-color: #080e12;
+    }
+
+    100% {
+        top: 0px;
+        left: 952px;
+        background-color: black;
+
+    }
+}
+
+.star1 {
+    position: absolute;
+    left: 500px;
+    top: 140px;
+}
+
+.star2 {
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+
+.star3 {
+    position: absolute;
+    left: 700px;
+    top: 140px;
+}
+
+.box {
+    position: absolute;
+    width: 400px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: -12px 13px 20px 4px rgba(0, 0, 0, 0.75);
+    margin: 600px 400px 0px 50px;
+    background-color: #485563;
+    font-family: 'Indie Flower', cursive;
+    background: #333333;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    color: #FFFFFF;
+    background: #100101;
+    border-radius: 20% 0 20% 20%;
+}
